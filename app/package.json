@@ -4,9 +4,9 @@
   "description": "A simple Express app",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Validation passed: application is stable.\""
-  },
+  "start": "node server.js",
+  "test": "node --test"
+},
   "dependencies": {
     "express": "^4.18.2"
   }
